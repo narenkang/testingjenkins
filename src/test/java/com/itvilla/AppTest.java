@@ -9,7 +9,7 @@ public class AppTest {
 
 	@Test
 	public void testLengthOfTheUniqueKey() {
-
+		System.out.println("Testing syso");
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
 
