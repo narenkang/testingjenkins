@@ -9,9 +9,9 @@ public class AppTest {
 
 	@Test
 	public void testLengthOfTheUniqueKey() {
-		System.out.println("Testing syso");
+		System.out.println("Testing Project starts");
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
-
+		System.out.println("Testing ends");
 	}
 }
